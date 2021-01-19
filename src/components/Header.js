@@ -3,15 +3,18 @@ import React from 'react'
 const styles = {
     height: '60px',
     width: '100vw',
-    padding: '10px',
+    padding: '5px',
+    paddingTop: '30px',
     textAlign: 'center',
     fontSize: '30px',
+    fontFamily: 'Arial',
+    backgroundColor: '#faefae'
   };
 
 const Header = () => {
     return (
         <div style={styles}>
-            <header>KART?</header>
+            <header>TRENINGSPARKER I TRONDHEIM</header>
         </div>
     )
 }
